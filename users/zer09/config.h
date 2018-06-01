@@ -16,7 +16,7 @@
 #define FORCE_NKRO
 
 #ifndef TAPPING_TOGGLE
-#define TAPPING_TOGGLE  1
+#define TAPPING_TOGGLE 1
 #endif
 
 #ifdef TAPPING_TERM
@@ -28,5 +28,7 @@
 // and it saves on space in the firmware.
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
+
+#define NO_MUSIC_MODE
 
 #endif
